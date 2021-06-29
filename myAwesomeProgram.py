@@ -68,7 +68,7 @@ def getRandomCountry(urlcountry):
     country_Flag = countryFlagJson[0]['flag']
     
     path = file_path + "\\Flag.svg" #
-
+    
     #write image somewhere idk and close the file
     progressbarFunc(90,"Downloading flag", '#00b300')
     write_CountryFlag = requests.get(country_Flag)
